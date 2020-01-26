@@ -1,0 +1,55 @@
+GET http://localhost:3000/filmes/api
+
+###
+
+GET http://localhost:3000/filmes
+
+
+###
+
+GET http://localhost:3000/filmes/5e2def01693aebf1f605173c
+###
+
+POST http://localhost:3000/filmes
+Content-Type: application/json
+
+{
+    "title": "kung Fu Panda",
+    "description": "Filme sobre um panda que come bambu",
+    "author": "Epodeser Enri"
+}
+
+# {
+#     "title": "Um to falando um",
+#     "description": "Filme da Nataly",
+#     "author": "Germetizm toungonin"
+# }
+
+# {
+#     "title": "Tartarugas ninjas",
+#     "description": "Filme sobre tartarugas",
+#     "author": "Antonio Candeiras"
+# }
+
+###
+DELETE http://localhost:3000/filmes/5e2ddb93c33814d72aa77051
+
+###
+PATCH http://localhost:3000/filmes/5e2def01693aebf1f605173c
+Content-Type: application/json
+
+{
+    "title": "kung Fu Panda Updated",
+    "description": "bla",
+    "author": "ble"
+}
+
+###
+PUT http://localhost:3000/filmes/5e2def01693aebf1f605173c
+Content-Type: application/json
+
+{
+    "title": "kung Fu Panda",
+    "description": "Filme sobre um panda que come bambu",
+    "author": "Epodeser Enri"
+}

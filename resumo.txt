@@ -1,0 +1,15 @@
+mkdir nodeJS-Express-Rest-Crud-Api
+cd nodeJS-Express-Rest-Crud-Api/
+npm init
+code .
+npm i express mongoose
+npm i --save-dev dotenv nodemon
+
+alterar o arquivo
+package.json
+"scripts": {
+    "devStart": "nodemon server.js",
+    ...
+  },
+
+npm run devStart
